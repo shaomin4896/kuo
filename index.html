@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script src="./js/main.js"></script>
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Happy Birthday</title>
+</head>
+
+<body>
+  <nav class="nav-extended">
+    <div class="nav-wrapper">
+
+      <a href="#" class="brand-logo" id="happy-title-default">
+        <i class="material-icons">cake</i>Happy Birthday</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+        <i class="material-icons">menu</i>
+      </a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li>
+          <a href="#">技術運用</a>
+        </li>
+        <li>
+          <a href="#">開發人員</a>
+        </li>
+      </ul>
+    </div>
+    <div class="nav-content">
+      <ul class="tabs tabs-transparent">
+        <li class="tab">
+          <a id="memeries" href="">回憶</a>
+        </li>
+        <li class="tab">
+          <a id="growup" class="active" href="#test2">成長</a>
+        </li>
+        <li class="tab">
+          <a id="talk" href="#test4">
+            <i class="material-icons">message</i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li>
+      <a href="#">技術運用</a>
+    </li>
+    <li>
+      <a href="#">開發人員</a>
+    </li>
+  </ul>
+  <div class="container">
+    <div class="memeries pages">
+      <ul class="collapsible popout">
+        <li>
+          <div class="collapsible-header">
+            <i class="material-icons">airplanemode_active</i>日本行</div>
+          <div class="collapsible-body">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="images/2017.06出國/IMG_1980.JPG">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Card Title
+                  <i class="material-icons right">more_vert</i>
+                </span>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Card Title
+                  <i class="material-icons right">close</i>
+                </span>
+                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+              </div>
+            </div>
+
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header">
+            <i class="material-icons">local_taxi</i>宜蘭</div>
+          <div class="collapsible-body">
+            <span>Lorem ipsum dolor sit amet.</span>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header">
+            <i class="material-icons">local_taxi</i>台中</div>
+          <div class="collapsible-body">
+            <span>Lorem ipsum dolor sit amet.</span>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header">
+            <i class="material-icons">local_taxi</i>基隆</div>
+          <div class="collapsible-body">
+            <span>Lorem ipsum dolor sit amet.</span>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header">
+            <i class="material-icons">place</i>猴硐</div>
+          <div class="collapsible-body">
+            <span>Lorem ipsum dolor sit amet.</span>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header">
+            <i class="material-icons">place</i>控窯</div>
+          <div class="collapsible-body">
+            <span>Lorem ipsum dolor sit amet.</span>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header">
+            <i class="material-icons">place</i>劍湖山</div>
+          <div class="collapsible-body">
+            <span>Lorem ipsum dolor sit amet.</span>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header">
+            <i class="material-icons">place</i>漢來港</div>
+          <div class="collapsible-body">
+            <span>Lorem ipsum dolor sit amet.</span>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header">
+            <i class="material-icons">place</i>不厭亭</div>
+          <div class="collapsible-body">
+            <span>Lorem ipsum dolor sit amet.</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="growup pages">
+      growup
+      <br> growup
+      <br> growup
+      <br> growup
+      <br> growup
+      <br>
+    </div>
+    <div class="talk pages">
+
+      <div class="row" id="unlock">
+        <div class="col s12">
+          <div class="row">
+            <div class="input-field col s12">
+              <i class="material-icons prefix">lock</i>
+              <input id="lock" type="text" id="autocomplete-input" class="autocomplete">
+              <label for="autocomplete-input">輸入"IamXiaoYu"解鎖</label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row" id="fordad" style="display: none;">
+        <div class="col s12 m6">
+          <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+              <span class="card-title">爸，</span>
+              <p>
+                林娘客兄公累
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
